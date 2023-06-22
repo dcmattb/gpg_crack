@@ -1,0 +1,6 @@
+Password
+SuperSecretPassword789!
+password123
+ThisIsJustATextFile
+WithOnePasswordPerLine
+YouShouldCreateYourOwn
