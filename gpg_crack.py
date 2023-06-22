@@ -51,7 +51,7 @@ transforms = [
     #Add more transforms here if required...
     ]
 for i,transform in enumerate(transforms):
-    print(f"{i}/{len(transforms)}") #Count the transforms - rudimentary progress indicator
+    print(f"{(i+1)}/{len(transforms)}") #Count the transforms - rudimentary progress indicator
     for word in words:
         res = subprocess.run(['gpg', '--export-secret-key', '--armor', '--pinentry-mode', 'loopback', '--passphrase', transform(word.strip()), privkey], capture_output=True)
         if res.stdout[:5] == (b"-----"):    #Looks like PGP armour, password found!
