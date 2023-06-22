@@ -1,7 +1,15 @@
 # gpg_crack
-Python script which attempts to use a password list to crack encrypted PGP Private Keys
+#### Python script which attempts to use a password list to crack encrypted PGP Private Keys
 
-IMPORTANT
+
+Tired of guessing passwords in this dialogue?
+
+<img src="pinentry.png" height="200px">
+
+Then this script may help!
+
+
+### IMPORTANT
 1) You must have gpg suite installed (see https://gpgtools.org/)
 2) You must enable loopback PIN ENTRY in the gpg configuration:
     ```
