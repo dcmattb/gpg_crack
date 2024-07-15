@@ -30,4 +30,12 @@ Internally, this runs multiple attempts (with different passwords) of:
 gpg --export-secret-key --armor --pinentry-mode loopback --passphrase 'PasswordCandidate' MyPrivateKey.priv
 ```
 
+## Tips:
+Use the ```list_keys.sh``` script to list KeyIDs of secret keys, along with their identifiers/emails so you can be sure to target the correct key
+
+
+
+Enjoy!
+
+
 ~dcmattb
